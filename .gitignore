@@ -1,0 +1,16 @@
+*.sdf
+*.suo
+_UpgradeReport_Files
+UpgradeLog.*
+DerivedData
+.xcuserstate
+*.xcuserdatad
+.DS_Store
+xcshareddata
+SDL-1.2.9
+*.opensdf
+DebugVC7
+bin
+*/ReleaseVC7
+*vcxproj.user
+DUKE3D.GRP

@@ -625,13 +625,21 @@ void CONFIG_ReadSetup( void )
    if( dummy ) strcpy(myname,_argv[dummy+1]);
    dummy = CheckParm("MAP");
 
+<<<<<<< HEAD
    
+=======
+
+>>>>>>> 44c79f31be31e20421f0ea85a3053157e258e1bb
 
 	if( dummy )
 	{
 		if (!VOLUMEONE)
 		{
+<<<<<<< HEAD
 			//boardfilename might be set from commandline
+=======
+			//boardfilename might be set from commandline only zero if we are replacing
+>>>>>>> 44c79f31be31e20421f0ea85a3053157e258e1bb
 			boardfilename[0] = 0;
 			strcpy(boardfilename,_argv[dummy+1]);
 			if( strchr(boardfilename,'.') == 0)
