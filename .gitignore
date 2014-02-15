@@ -14,7 +14,3 @@ bin
 */ReleaseVC7
 *vcxproj.user
 DUKE3D.GRP
-
-/Engine/*.vcxproj
-
-/Game/*.vcxproj
