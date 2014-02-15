@@ -630,7 +630,7 @@ void CONFIG_ReadSetup( void )
 	{
 		if (!VOLUMEONE)
 		{
-			//boardfilename might be set from commandline only zero if we are replacing
+			//boardfilename might be set from commandline
 			boardfilename[0] = 0;
 			strcpy(boardfilename,_argv[dummy+1]);
 			if( strchr(boardfilename,'.') == 0)
