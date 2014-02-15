@@ -7162,8 +7162,11 @@ void checkcommandline(int argc,char  **argv)
 
 			}
 
-
+<<<<<<< HEAD
+            if (stricmp(c, "-net") == 0)
+=======
 			if (stricmp(c, "-net") == 0)
+>>>>>>> 44c79f31be31e20421f0ea85a3053157e258e1bb
             {
                 i += 2;  // skip filename.
 				// FIX_00044: Markers are now on by default in netgames (as real DOS duke3d)

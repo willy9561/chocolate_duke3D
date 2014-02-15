@@ -16,7 +16,7 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v100</PlatformToolset>
+    <PlatformToolset>v110</PlatformToolset>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
@@ -50,8 +50,6 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>..\bin\</OutDir>
     <IntDir>.\DebugVC7\</IntDir>
-    <IncludePath>C:\chocolate_duke3D-master\SDL_mixer-1.2.12\include;C:\chocolate_duke3D-master\SDL-1.2.15\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\chocolate_duke3D-master\SDL_mixer-1.2.12\lib\x86;C:\chocolate_duke3D-master\SDL-1.2.15\lib\x86;C:\chocolate_duke3D-master\dxsdk\200806\Lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Midl>
@@ -118,10 +116,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
     </Link>
-    <PostBuildEvent>
-      <Command>copy ..\..\sdks\SDL-1.2.15\lib\x86\SDL.dll $(OutDir)
-copy ..\..\sdks\SDL_mixer-1.2.12\lib\x86\*.dll $(OutDir)</Command>
-    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\actors.c" />
